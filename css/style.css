@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.Home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/brooke-lark-4J059aGa5s4-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.navibar{
+    background-color: rgba(192, 192, 192,0.2);
+    width: 100vw;
+    height: 50px;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Kaushan Script', cursive;  
+}
+.navibar span{
+    width: 120px;
+    opacity: 0.7;
+}
+.navibar span:hover{
+    opacity: 1;
+    border-bottom: 1px solid honeydew;
+    transition: border ease 4s;
+}
+
+.MenuCard{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/pexels-fwstudio-139321.jpg);
+    background-size: contain;
+}

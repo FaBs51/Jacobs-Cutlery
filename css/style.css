@@ -30,13 +30,14 @@
     cursor: alias;
 }
 .navibar .loc{
-
+    position: relative;
     margin: 6px 6px;
     padding: 0 6px;
     text-align: center;
     width: 50px;
     font-size: 32px;
 }
+
 .option{
     opacity: 1;
     display: flex;

@@ -13,6 +13,7 @@
 
 }
 .navibar{
+    position: fixed;
     background-color: rgba(192, 192, 192,0.2);
     width: 100vw;
     height: 50px;
@@ -20,18 +21,67 @@
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Kaushan Script', cursive;  
 }
-.navibar span{
-    width: 120px;
-    opacity: 0.7;
+.navibar .option div {
+    width: 150px;
+    text-align: center;
+    cursor: alias;
 }
-.navibar span:hover{
+.navibar .loc{
+
+    margin: 6px 6px;
+    padding: 0 6px;
+    text-align: center;
+    width: 50px;
+    font-size: 32px;
+}
+.option{
     opacity: 1;
-    border-bottom: 1px solid honeydew;
-    transition: border ease 4s;
+    display: flex;
+    flex-direction: row;
+
 }
+.Home .option a{
+    text-decoration: none;
+    color: white;
+}
+.option div:hover{
+    border-bottom: 2px solid honeydew;
+}
+.title{
+    justify-content: center;
+    overflow-y: hidden;
+    font-family: 'Kaushan Script', cursive;  
+    font-size: 102px;
+    color: white;
+    position: fixed;
+    top: 25vh;
+    width: 45vw;
+    left: 180px;
+    height: 550px;
+    text-shadow: 3px 3px 6px black;
+    transform: scale(1.5,1.5);
+}
+.t1{
+    overflow-y: hidden;
+    height: 250px;
+}
+.title span{
+    font-size: 156px;
+    position: relative;
+    top: 60px;
+    left: -15px;
+}
+.t2{
+    position: relative;
+    left: 180px;
+    bottom: 90px;
+}
+
+
+
 
 .MenuCard{
     width: 100vw;

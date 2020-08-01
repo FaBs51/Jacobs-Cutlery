@@ -7,7 +7,7 @@
 .Home{
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/brooke-lark-4J059aGa5s4-unsplash.jpg);
+    background-image: url(../images/BG1.jpg);
     background-size: cover;
     background-position: bottom;
 
@@ -87,6 +87,6 @@
 .MenuCard{
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/pexels-fwstudio-139321.jpg);
+    background-image: url(../images/BG2.jpg));
     background-size: contain;
 }

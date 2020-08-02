@@ -5,6 +5,7 @@
     overflow-x: hidden;
 }
 .Home{
+    overflow-y: auto;
     width: 100vw;
     height: 100vh;
     background-image: url(../images/BG1.jpg);
@@ -80,13 +81,43 @@
     left: 180px;
     bottom: 90px;
 }
-
-
-
-
 .MenuCard{
+    overflow-y: auto;
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/BG2.jpg));
+    background-image: url(../images/BG2.jpg);
     background-size: contain;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 108vh;
+    right: 0vw;
+    color: white;
+    width: 50vw;
+    height: 84vh;
+    /* overflow: hidden; */
+    font-family: 'Kaushan Script', cursive; 
+    border-left: 2px dotted white; 
+    border-bottom: 2px dotted white; 
+}
+.cardtitle{
+    font-size: 48px;
+    text-align: center;
+    background-color: rgba(192, 192, 192,0.3);
+
+}
+.row1, .row2{
+    position: relative;
+    top: 30px;
+    font-size: 42px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row1 div,.row2 div{
+    width: 220px;
+}
+

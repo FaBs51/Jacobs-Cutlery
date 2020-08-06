@@ -58,7 +58,7 @@
     font-family: 'Kaushan Script', cursive;  
     font-size: 102px;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 25vh;
     width: 45vw;
     left: 180px;
